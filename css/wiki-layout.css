@@ -57,10 +57,15 @@ h4 {
   margin-bottom: var(--page-subtitle-margin-y);
 }
 
-section > p,
-article > p {
+section>p,
+article>p {
   line-height: 24px;
   text-indent: 8px;
+}
+
+article>p {
+  margin: 10px;
+  text-align: center;
 }
 
 section,
